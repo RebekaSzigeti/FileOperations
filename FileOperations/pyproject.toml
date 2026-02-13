@@ -1,0 +1,9 @@
+[project]
+name = "fileops"
+version = "0.1.0"
+description = "CLI file operations tool"
+authors = [{ name = "Szigeti Rebeka" }]
+requires-python = ">=3.9"
+
+[project.scripts]
+fileops = "fileops.cli:main"
