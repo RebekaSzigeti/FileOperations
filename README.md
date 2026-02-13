@@ -65,5 +65,58 @@ fileops delete --path ./temp --name test
 
 
 
+## Installation
+
+### 1. Clone the repository
+
+If you downloaded the ZIP file, extract it and navigate into the project folder.
+
+---
+
+### 2. Create a virtual environment
+
+```bash
+python -m venv venv
+```
+
+---
+
+### 3. Activate the virtual environment
+
+**Windows (PowerShell):**
+
+```bash
+.\venv\Scripts\Activate
+```
+
+**Mac/Linux:**
+
+```bash
+source venv/bin/activate
+```
+
+You should now see `(venv)` in your terminal.
+
+---
+
+### 4. Install the package
+
+```bash
+pip install -e .
+```
+
+---
+
+### 5. Verify installation
+
+```bash
+fileops --help
+```
+
+If the help message appears, the installation was successful.
+
+
+
+
 
 
