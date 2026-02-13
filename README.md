@@ -115,6 +115,23 @@ fileops --help
 
 If the help message appears, the installation was successful.
 
+## Running Tests
+
+Make sure the virtual environment is activated.
+
+Install pytest if needed:
+
+```bash
+pip install pytest
+```
+
+Run the tests:
+
+```bash
+python -m pytest
+```
+
+
 
 
 
